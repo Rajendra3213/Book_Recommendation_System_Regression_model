@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Book Rating Prediction</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Book Rating Prediction</h1>
+        </header>
+
+        <section class="form-section">
+            <form id="predictionForm">
+                <label for="inputUserId">User ID:</label>
+                <input type="text" id="inputUserId" placeholder="Enter User ID" required>
+
+                <label for="inputBookId">Book ID:</label>
+                <input type="text" id="inputBookId" placeholder="Enter Book ID" required>
+
+                <button type="submit">Predict Rating</button>
+            </form>
+        </section>
+
+        <section class="result-section">
+            <h2>Prediction Result</h2>
+            <div id="predictionResult"></div>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
